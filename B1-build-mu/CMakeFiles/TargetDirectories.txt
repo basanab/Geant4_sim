@@ -1,8 +1,0 @@
-/home/basana/simulation/muon_e_scattering/B1-build-mu/CMakeFiles/install/strip.dir
-/home/basana/simulation/muon_e_scattering/B1-build-mu/CMakeFiles/install/local.dir
-/home/basana/simulation/muon_e_scattering/B1-build-mu/CMakeFiles/install.dir
-/home/basana/simulation/muon_e_scattering/B1-build-mu/CMakeFiles/list_install_components.dir
-/home/basana/simulation/muon_e_scattering/B1-build-mu/CMakeFiles/rebuild_cache.dir
-/home/basana/simulation/muon_e_scattering/B1-build-mu/CMakeFiles/edit_cache.dir
-/home/basana/simulation/muon_e_scattering/B1-build-mu/CMakeFiles/B1.dir
-/home/basana/simulation/muon_e_scattering/B1-build-mu/CMakeFiles/exampleB1.dir
