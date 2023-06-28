@@ -1,0 +1,59 @@
+# Macro file for example B1
+# 
+# To be run preferably in batch, without graphics:
+# % exampleB1 run2.mac
+#
+#/run/numberOfThreads 4
+##/run/initialize
+#
+##/control/verbose 2
+##/run/verbose 2
+#
+# gamma 6 MeV to the direction (0.,0.,1.)
+# 10000 events
+#
+##/gun/particle gamma
+##/gun/energy 6 MeV
+#
+##/run/printProgress 100
+##/run/beamOn 1000
+# 
+# proton 210 MeV to the direction (0.,0.,1.)
+# 1000 events
+#
+##/gun/particle proton
+##/gun/energy 210 MeV
+#
+##/run/beamOn 100
+
+
+
+# Macro file for running mu_e scattering study
+# 
+# To be run preferably in batch, without graphics:
+# % exampleB1 run2.mac
+#
+#
+##/run/numberOfThreads 4
+/run/numberOfThreads 32
+/run/initialize
+
+/control/verbose 2
+/run/verbose 2
+
+
+
+/gps/particle mu-
+/gps/pos/type Point
+/gps/pos/centre 0. 0. 0.005. cm
+/gps/direction 0. 0. -1.
+##/gps/ene/type Lin
+##/gps/ene/type Mono
+/gps/ene/type Pow
+/gps/ene/alpha -2.7
+
+/gps/ene/min 1.0 GeV
+/gps/ene/max 10.0 GeV
+##/gps/ene/gradient 0.
+##/gps/ene/intercept 1.
+/run/beamOn 10

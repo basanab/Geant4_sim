@@ -1,0 +1,24 @@
+# Macro file for running mu_e scattering study
+# 
+# To be run preferably in batch, without graphics:
+# % exampleB1 run2.mac
+#
+#
+/run/numberOfThreads 4
+/run/initialize
+#
+/control/verbose 2
+/run/verbose 2
+
+
+
+/gps/particle mu-
+/gps/pos/type Point
+/gps/pos/centre 0. 0. 0.32. cm
+/gps/direction 0. 0. -1.
+/gps/ene/type Lin
+/gps/ene/min 500. MeV
+/gps/ene/max 20. GeV
+/gps/ene/gradient 0.
+/gps/ene/intercept 1.
+/run/beamOn 100000000
