@@ -1,6 +1,6 @@
 # muon electron scattering study using Geant4
 
-- Muons of uniform energy distribution are shot at an Al plate of 1 cm x 1 cm lateral dimensions and 0.5 cm thickness
+- Muons of Linear and Power- law energy distribution are shot at an Al  plate of 1 cm x 1 cm lateral dimensions and 0.3cm thickness
 - If an electron scatters off, the exit positions of the muon and the electron produced in the scattering are recorded along with their energies 
 - The code plots.C shows how to read the output file from the simulation and plot various graphs using ROOT
 - The mac file mu_e.mac contains the commands to be executed by Geant4 to run the simulation.
